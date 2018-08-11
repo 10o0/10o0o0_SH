@@ -1,9 +1,5 @@
 #! /usr/bin/env python
 # coding:utf-8
-# --------------------------------------------------
-# file_name: smtp_scan.py
-# author: secsky
-# --------------------------------------------------
 
 import os
 import sys
@@ -75,10 +71,6 @@ def get_args():
 
 #打印使用帮助方法
 def usage():
-    print '+' + '-' * 80 + '+'
-    print '\t\t\t  FileName: 邮箱密码破解工具 V1.0'
-    print '\t\t\t  Blog: http://www.secsky.cn/'
-    print '\t\t\t  Code BY: secsky'
     print '+' + '-' * 80 + '+'
     print 'Usage:'
     print '\tsmtp_scan.py [-s smtp_server] [-u user_name] [-p password]'
