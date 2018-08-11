@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Author: Lcy
-# @Date:   2016-07-13 16:04:29
-# @Last Modified by:   Lcy
-# @Last Modified time: 2016-07-14 10:22:23
 import requests
 import logging
 from bs4 import BeautifulSoup
