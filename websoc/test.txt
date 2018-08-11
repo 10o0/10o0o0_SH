@@ -1,0 +1,1 @@
+PHP 5.3.0 ini_restore 函数导致内存信息泄露夏茂政府网集成OA办公系统 2.0 HXINCLUDE/Admin_Upfile.asp 后门PHP 4.3.0代码执行漏洞PHP 5.3.0 ini_restore 函数导致内存信息泄露

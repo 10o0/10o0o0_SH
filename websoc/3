@@ -1,0 +1,86 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 21 Feb 2017 09:27:06 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Vary: Accept-Language, Cookie
+Content-Language: zh-cn
+Set-Cookie: sessionid=6daxqe0clbv15sip21j9z2juiwie3gbp; httponly; Path=/
+Content-Length: 2816
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>挂马监控</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style type="text/css">
+	    body {font-size:12px;}
+		.vul_container{width:80%;margin:4px auto;}
+		#vul_name {text-align:center;}
+		#basc_info {border-bottom:1px solid black; padding:10px 0px;line-height:1em;}
+		.desc_title {color: #639A41; margin-left: 10px; padding-right:1em;}
+		.vul_detail_item{padding:6px 0px 24px 24px;}
+		.center {text-align:center;}
+		.center a,.center a:hover {font-size:14px;color:#2971A7;text-decoration:none;}
+		.center a:hover {text-decoration:underline;}
+	</style>
+</head>
+
+<body class="dialog">
+	<h3 id="vul_name">PHP 5.3.0 ini_restore 函数导致内存信息泄露</h3>
+	<div id="basc_info" class="vul_container">
+		<p><span class="desc_title">发现时间：</span><span>2009-08-10</span></p>
+		<p><span class="desc_title">更新时间：</span><span>2009-12-01</span></p>
+		<p><span class="desc_title">危险等级：</span><span>低危</span></p>
+		<p><span class="desc_title">CNNVD-ID：</span>
+			
+				<a href ="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-200912-001" target="_blank">CNNVD-200912-001</a>
+			
+		</p>
+		<p><span class="desc_title">CVE-ID：</span>
+			
+				<a href ="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-2626" target="_blank">CVE-2009-2626</a>
+			
+		</p>
+		<p><span class="desc_title">Bugtraq ID：</span>
+			
+				<a href="http://www.securityfocus.com/bid/36009" target="_blank">36009</a>
+			
+		</p>
+		<p><span class="desc_title">OWASP TOP10 漏洞描述：</span>
+			
+				信息泄露及不安全的错误信息处理
+			
+		</p>
+	</div>
+	
+	<div class="vul_container">
+		<p>受影响系统：</P>
+			<p class="vul_detail_item">php 5.3.0</P>
+		<p>漏洞概述：</P>
+			<p class="vul_detail_item">在使用ini_restore()函数重置PHP配置环境时PG()类中的变量会显示任意部分的内存。如果要利用这个漏洞，攻击者必须要通过ini_set()函数声明变量。</P>
+		<p>测试代码（请谨慎使用，可能存在风险）：</P>
+			<p class="vul_detail_item">&lt;?php</P>
+		<p>参考链接：</P>
+			<p class="vul_detail_item">
+				
+					http://securityreason.com/achievement_securityalert/65<br />
+				
+					http://www.debian.org/security/2009/dsa-1940<br />
+				
+					http://svn.php.net/viewvc/php/php-src/branches/PHP_5_3/ext/standard/file.c?view=log<br />
+				
+					http://svn.php.net/viewvc/php/php-src/branches/PHP_5_2/ext/standa<br />
+				
+			</P>
+	</div>
+	
+	
+</body>

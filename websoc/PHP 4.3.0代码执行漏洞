@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>挂马监控</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style type="text/css">
+	    body {font-size:12px;}
+		.vul_container{width:80%;margin:4px auto;}
+		#vul_name {text-align:center;}
+		#basc_info {border-bottom:1px solid black; padding:10px 0px;line-height:1em;}
+		.desc_title {color: #639A41; margin-left: 10px; padding-right:1em;}
+		.vul_detail_item{padding:6px 0px 24px 24px;}
+		.center {text-align:center;}
+		.center a,.center a:hover {font-size:14px;color:#2971A7;text-decoration:none;}
+		.center a:hover {text-decoration:underline;}
+	</style>
+</head>
+
+<body class="dialog">
+	<h3 id="vul_name">PHP 4.3.0代码执行漏洞</h3>
+	<div id="basc_info" class="vul_container">
+		<p><span class="desc_title">发现时间：</span><span>2004-03-27</span></p>
+		<p><span class="desc_title">更新时间：</span><span>2009-12-16</span></p>
+		<p><span class="desc_title">危险等级：</span><span>高危</span></p>
+		<p><span class="desc_title">CNNVD-ID：</span>
+			
+				<a href ="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-200303-030" target="_blank">CNNVD-200303-030</a>
+			
+		</p>
+		<p><span class="desc_title">CVE-ID：</span>
+			
+				<a href ="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0097" target="_blank">CVE-2003-0097</a>
+			
+		</p>
+		<p><span class="desc_title">Bugtraq ID：</span>
+			
+				<a href="http://www.securityfocus.com/bid/6875" target="_blank">6875</a>
+			
+		</p>
+		<p><span class="desc_title">OWASP TOP10 漏洞描述：</span>
+			
+				注入
+			
+		</p>
+	</div>
+	
+	<div class="vul_container">
+		<p>漏洞影响：</P>
+			<p class="vul_detail_item">
+PHP 4.3.0
+
+</P>
+		<p>漏洞概述：</P>
+			<p class="vul_detail_item">
+PHP 4.3.0使用的CGI模块存在未知漏洞，可能导致攻击者通过绕过CGI强制重定向设置并以PHP用户的身份来访问二进制文件或执行PHP代码(cgi.force_redirect or --enable-force-cgi-redirect)。受影响的PHP版本4.3.0。
+
+</P>
+		<p>建议解决方案：</P>
+			<p class="vul_detail_item">
+升级PHP到最新版本。</P>
+		<p>参考链接：</P>
+			<p class="vul_detail_item">
+				
+					http://cgi.nessus.org/cve.php3?cve=CAN-2003-0097<br />
+				
+					http://www.securityfocus.com/bid/6875<br />
+				
+			</P>
+	</div>
+	
+	
+</body>
